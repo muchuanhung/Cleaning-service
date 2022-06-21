@@ -1,0 +1,32 @@
+{
+  "name": "clean-service",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-regular-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@nuxtjs/style-resources": "^1.2.1",
+    "bootstrap": "^5.1.3",
+    "core-js": "^3.19.3",
+    "node-sass": "^7.0.1",
+    "nuxt": "^2.15.8",
+    "nuxt-fontawesome": "^0.4.0",
+    "sass-loader": "^13.0.0",
+    "vue": "^2.6.14",
+    "vue-server-renderer": "^2.6.14",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^4.46.0"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.15.8",
+    "@nuxt/typescript-build": "^2.1.0",
+    "@nuxtjs/fontawesome": "^1.1.2"
+  }
+}
