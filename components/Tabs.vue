@@ -31,21 +31,82 @@
     <div class="content">
       <div v-if="activetab === '1'" class="tabcontent">
         <table>
-          <div class="cascader">
-            <button
-              class="btn btn-default dropdown-toggle"
-              type="button"
-              id="dropdownMenuButton1"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              台北市 中正區
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
+          <div class="w-100">
+            <div class="cascader">
+              <button
+                class="
+                  btn btn-default
+                  dropdown-toggle
+                  d-flex
+                  justify-content-between
+                  w-100
+                "
+                type="button"
+                id="dropdownMenuButton1"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <div>
+                  <span class="icon-dot me-2">
+                    <fa :icon="['fas', 'location-dot']" />
+                  </span>
+
+                  台北市 中正區
+                </div>
+
+                <span class="icon-dot">
+                  <fa :icon="['fas', 'sort-down']" />
+                </span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">Testing1</a></li>
+                <li><a class="dropdown-item" href="#">Testing2</a></li>
+              </ul>
+            </div>
+            <div class="cascader mt-3">
+              <button
+                class="
+                  btn btn-default
+                  dropdown-toggle
+                  d-flex
+                  justify-content-between
+                  w-100
+                "
+                type="button"
+                id="dropdownMenuButton1"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <div>
+                  <span class="icon-dot me-2">
+                    <fa :icon="['fas', 'clock']" />
+                  </span>
+
+                  單人打掃3小時
+                </div>
+
+                <span class="icon-dot">
+                  <fa :icon="['fas', 'sort-down']" />
+                </span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">Testing1</a></li>
+                <li><a class="dropdown-item" href="#">Testing2</a></li>
+              </ul>
+            </div>
+
+            <div class="w100 text-center mt-3">
+              <button class="reserve-btn w-100">開始預約，查看清潔價格</button>
+            </div>
+
+            <div class="w100 text-center mt-3">
+              <p>
+                找約過的人員？
+                <a href="#" class="color-primary text-decoration-none">
+                  輸入您的手機號碼
+                </a>
+              </p>
+            </div>
           </div>
         </table>
       </div>
@@ -72,10 +133,14 @@ export default {
   padding: 0;
 }
 
+.color-primary {
+  color: #36bbd9;
+}
+
 .container {
-  max-width: 620px;
-  min-width: 420px;
+  width: 100%;
   margin: 40px auto;
+  background-color: transparent;
   font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
   font-size: 0.9em;
   color: #888;
@@ -115,7 +180,6 @@ export default {
 .tabs a.active {
   background-color: rgba(255, 255, 255, 0.3);
   color: #36bbd9;
-  border-bottom: 2px solid #fff;
   cursor: default;
 }
 
@@ -123,11 +187,12 @@ export default {
 .tabcontent {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 20px 30px;
+  display: grid;
 }
 
 .cascader {
   display: flex;
-  padding: 8px 40px 8px 16px;
+  padding: 8px 16px;
   position: relative;
   border: 1px solid #eeeeee;
   border-radius: 4px;
@@ -140,5 +205,36 @@ export default {
   transition: 0.2s;
   min-width: 200px;
   width: 100%;
+  justify-content: space-between;
+}
+
+.cascader:active {
+  border: 1px solid #3e4459;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.icon-dot {
+  opacity: 0.5;
+}
+
+.icon-dot:active {
+  opacity: 1;
+}
+
+.reserve-btn {
+  display: inline-block;
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: 400;
+  outline: 0;
+  background: #36bbd9;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
 }
 </style>
