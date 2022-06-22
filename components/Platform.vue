@@ -725,7 +725,9 @@
           </div>
         </div>
         <!-- Reserve-button -->
-        <div class="landing-service__action d-flex justify-content-center">
+        <div
+          class="landing-service__action d-flex justify-content-center w-100"
+        >
           <button class="landing-service__action reserve-btn d-inline-block">
             開始預約
             <span>
@@ -734,13 +736,20 @@
           </button>
         </div>
       </div>
+      <!-- Heros Section -->
+      <Heros />
+      <!-- Cleaners Section -->
+      <Cleaners />
     </div>
   </body>
 </template>
 
 <script>
+import Heros from "./Heros.vue";
+import Cleaners from "./Cleaners.vue";
 export default {
   name: "Platform",
+  components: { Heros, Cleaners },
 };
 </script>
 
@@ -791,7 +800,7 @@ body {
 
 .landing-service__action .reserve-btn {
   display: inline-block;
-  padding: 6px 12px;
+  padding: 4px 90px;
   font-size: 14px;
   font-weight: 400;
   outline: 0;
