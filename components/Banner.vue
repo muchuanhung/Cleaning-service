@@ -34,6 +34,7 @@ body {
   line-height: 1.5;
   min-height: 100%;
   color: #3e4459;
+  background-color: #f5f3f4;
 }
 
 .banner {

@@ -46,7 +46,7 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                <div>
+                <div class="text-muted">
                   <span class="icon-dot me-2">
                     <fa :icon="['fas', 'location-dot']" />
                   </span>
@@ -77,7 +77,7 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                <div>
+                <div class="text-muted">
                   <span class="icon-dot me-2">
                     <fa :icon="['fas', 'clock']" />
                   </span>
@@ -93,6 +93,32 @@
                 <li><a class="dropdown-item" href="#">Testing1</a></li>
                 <li><a class="dropdown-item" href="#">Testing2</a></li>
               </ul>
+            </div>
+
+            <div
+              class="
+                mt-3
+                d-flex
+                justify-content-between
+                align-items-center
+                px-3
+              "
+            >
+              <label class="d-flex">
+                <span class="icon-dot me-2">
+                  <fa :icon="['fas', 'paw']" />
+                </span>
+                <p class="color-secondary">家中有無寵物？</p>
+              </label>
+
+              <div class="form-check form-switch">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  role="switch"
+                  id="flexSwitchCheckDefault"
+                />
+              </div>
             </div>
 
             <div class="w100 text-center mt-3">
@@ -236,5 +262,18 @@ export default {
   border-radius: 4px;
   cursor: pointer;
   text-align: center;
+}
+
+.form-check-input {
+  position: relative;
+  display: inline-block;
+  width: 58px;
+  height: 32px;
+  background-color: #fff;
+  transition: 0.3s;
+  border-radius: 16px;
+  border: 1px solid #eee;
+  margin: 3px 0;
+  cursor: pointer;
 }
 </style>
