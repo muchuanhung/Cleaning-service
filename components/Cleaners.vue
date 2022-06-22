@@ -7,6 +7,7 @@
           d-flex
           justify-content-between
           align-items-center
+          flex-md-row
           w-100
         "
       >
@@ -71,9 +72,167 @@
             </div>
           </div>
         </div>
-      </div>
 
-      <!-- Recommend-Cleaner section -->
+        <!-- Recommend-Cleaner section -->
+        <div
+          class="
+            recommend-cleaner__feature
+            d-flex
+            justify-content-center
+            align-items-center
+            flex-md-row
+            w-50
+          "
+        >
+          <!-- Cleaner-Worker01-->
+          <div class="feature__cleaners-wrapper">
+            <div class="cleaner-card card">
+              <img
+                src="../assets/images/cleaners/Oval-1.png"
+                class="cleaner-img"
+                alt="cleaner"
+              />
+              <div class="cleaner-body text-center mt-3">
+                <div class="cleaner-address">台北市</div>
+                <div class="cleaner-name">潔客＊</div>
+                <div class="cleaner-feedback d-flex justify-content-center">
+                  <div class="rate-stars__text pe-1">4.9</div>
+                  <div class="rate-stars__star"></div>
+                </div>
+                <div class="cleaner__price">$500/hr</div>
+              </div>
+            </div>
+
+            <div class="cleaner-card card">
+              <img
+                src="../assets/images/cleaners/Oval-1.png"
+                class="cleaner-img"
+                alt="cleaner"
+              />
+              <div class="cleaner-body text-center mt-3">
+                <div class="cleaner-address">台北市</div>
+                <div class="cleaner-name">潔客＊</div>
+                <div class="cleaner-feedback d-flex justify-content-center">
+                  <div class="rate-stars__text pe-1">4.9</div>
+                  <div class="rate-stars__star"></div>
+                </div>
+                <div class="cleaner__price">$500/hr</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cleaner-Worker02-->
+          <div class="feature__cleaners-wrapper">
+            <div class="cleaner-card card">
+              <img
+                src="../assets/images/cleaners/Oval-2.png"
+                class="cleaner-img"
+                alt="cleaner"
+              />
+              <div class="cleaner-body text-center mt-3">
+                <div class="cleaner-address">台北市</div>
+                <div class="cleaner-name">刻刻＊</div>
+                <div class="cleaner-feedback d-flex justify-content-center">
+                  <div class="rate-stars__text pe-1">4.8</div>
+                  <div class="rate-stars__star"></div>
+                </div>
+                <div class="cleaner__price">$500/hr</div>
+              </div>
+            </div>
+
+            <div class="cleaner-card card">
+              <img
+                src="../assets/images/cleaners/Oval-2.png"
+                class="cleaner-img"
+                alt="cleaner"
+              />
+              <div class="cleaner-body text-center mt-3">
+                <div class="cleaner-address">台北市</div>
+                <div class="cleaner-name">刻刻＊</div>
+                <div class="cleaner-feedback d-flex justify-content-center">
+                  <div class="rate-stars__text pe-1">4.8</div>
+                  <div class="rate-stars__star"></div>
+                </div>
+                <div class="cleaner__price">$500/hr</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cleaner-Worker03-->
+          <div class="feature__cleaners-wrapper">
+            <div class="cleaner-card card">
+              <img
+                src="../assets/images/cleaners/Oval-3.png"
+                class="cleaner-img"
+                alt="cleaner"
+              />
+              <div class="cleaner-body text-center mt-3">
+                <div class="cleaner-address">台北市</div>
+                <div class="cleaner-name">啊潔＊</div>
+                <div class="cleaner-feedback d-flex justify-content-center">
+                  <div class="rate-stars__text pe-1">4.7</div>
+                  <div class="rate-stars__star"></div>
+                </div>
+                <div class="cleaner__price">$450/hr</div>
+              </div>
+            </div>
+
+            <div class="cleaner-card card">
+              <img
+                src="../assets/images/cleaners/Oval-3.png"
+                class="cleaner-img"
+                alt="cleaner"
+              />
+              <div class="cleaner-body text-center mt-3">
+                <div class="cleaner-address">台北市</div>
+                <div class="cleaner-name">啊潔＊</div>
+                <div class="cleaner-feedback d-flex justify-content-center">
+                  <div class="rate-stars__text pe-1">4.7</div>
+                  <div class="rate-stars__star"></div>
+                </div>
+                <div class="cleaner__price">$500/hr</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cleaner-Worker04-->
+          <div class="feature__cleaners-wrapper">
+            <div class="cleaner-card card">
+              <img
+                src="../assets/images/cleaners/Oval-4.png"
+                class="cleaner-img"
+                alt="cleaner"
+              />
+              <div class="cleaner-body text-center mt-3">
+                <div class="cleaner-address">台北市</div>
+                <div class="cleaner-name">張碧＊</div>
+                <div class="cleaner-feedback d-flex justify-content-center">
+                  <div class="rate-stars__text pe-1">4.7</div>
+                  <div class="rate-stars__star"></div>
+                </div>
+                <div class="cleaner__price">$500/hr</div>
+              </div>
+            </div>
+
+            <div class="cleaner-card card">
+              <img
+                src="../assets/images/cleaners/Oval-4.png"
+                class="cleaner-img"
+                alt="cleaner"
+              />
+              <div class="cleaner-body text-center mt-3">
+                <div class="cleaner-address">台北市</div>
+                <div class="cleaner-name">張碧＊</div>
+                <div class="cleaner-feedback d-flex justify-content-center">
+                  <div class="rate-stars__text pe-1">4.7</div>
+                  <div class="rate-stars__star"></div>
+                </div>
+                <div class="cleaner__price">$500/hr</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </template>
@@ -116,5 +275,39 @@ body {
 
 .feature__sub-title {
   font-size: 36px;
+}
+
+/* cleaner-card */
+.cleaner-card {
+  height: 190px;
+  width: 140px;
+  margin: 0 8px 16px 8px;
+  border: none;
+}
+
+.cleaner-body {
+  font-size: 14px;
+}
+
+.cleaner-name {
+  font-size: 12px;
+  color: #36bbd9;
+  margin-bottom: 4px;
+}
+
+.cleaner-img {
+  height: 51px;
+  width: 51px;
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+  margin: 10px auto;
+}
+
+.rate-stars__star {
+  background: url(https://storage.googleapis.com/jackercleaning/assets/optImg/icon/star-rate.svg);
+  background-repeat: no-repeat;
+  height: 14px;
+  width: 100px;
 }
 </style>

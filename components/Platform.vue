@@ -822,6 +822,8 @@ body {
   display: flex;
   align-items: stretch;
   justify-content: center;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .landing-service__card {
