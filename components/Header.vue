@@ -148,14 +148,6 @@ a {
   text-decoration: none;
 }
 
-:root {
-  --black: #000000;
-  --white: #ffffff;
-  --blue: #36bbd9;
-  --green: #00ff62;
-  --gray: #cccccc;
-}
-
 .nav-logo img {
   max-width: 260px;
   max-height: 45px;

@@ -8,9 +8,12 @@
         justify-content-center
         align-items-center
         flex-column
+        w-100
       "
     >
-      <div class="platform-landing__title">其他未服務內容</div>
+      <div class="platform-landing__title d-flex justify-content-center">
+        其他未服務內容
+      </div>
       <div class="platform-landing__sub-title">
         基於人員與客戶安全、隱私等考量
       </div>
@@ -124,18 +127,6 @@ body {
 }
 
 .heros {
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  width: 100%;
   background-color: #f5f3f4;
   padding: 40px 0 30px;
 }
@@ -144,15 +135,6 @@ body {
   font-size: 32px;
   color: #3e4459;
   font-weight: 500;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
   margin-bottom: 8px;
 }
 
@@ -162,12 +144,7 @@ body {
   color: #c9302c;
 }
 
-.svg-inline--fa.fa-w-16 {
-  width: 0.5rem;
-}
-
 .addition__list {
-  /* width: 50%; */
   font-size: 14px;
 }
 </style>

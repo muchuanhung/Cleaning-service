@@ -2,14 +2,13 @@
 <template>
   <body>
     <div class="banner">
-      <div class="header-inner">
-        <div class="header-search-container">
-          <div class="header-search-title">
-            預約居家清潔，快篩PASS人員安心選!!
-            <br />
-            <div class="header-search-title--sub">
-              潔客已完成COVID-19篩檢，可預約人員皆為「快篩陰性」
-            </div>
+      <div class="header-inner mx-auto">
+        <div class="header-search-container mx-auto text-center">
+          <div class="header-search-title text-start text-md-center">
+            <nav class="d-none d-md-block">預約居家清潔，三分鐘馬上搞定！</nav>
+            <nav class="d-block d-md-none">
+              預約居家清潔，<br />三分鐘馬上搞定！
+            </nav>
           </div>
           <Tabs />
         </div>
@@ -27,34 +26,22 @@ export default {
 </script>
 
 <style scoped>
-/* global color setting */
-body {
-  font-family: "pingfang tc", "microsoft jhenghei", "microsoft yahei",
-    "Helvetica Neue", Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  min-height: 100%;
-  color: #3e4459;
-  background-color: #f5f3f4;
-}
-
 .banner {
   background-image: url("../assets/images/landing-mobilebg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 600px;
+  padding-top: 50px;
 }
 
 .header-inner {
   max-width: 1200px;
-  margin: auto;
 }
 
 .header-search-container {
   max-width: 585px;
   padding: 20px;
-  margin: 5px auto 0;
-  text-align: center;
 }
 
 .header-search-title {
@@ -63,11 +50,6 @@ body {
   font-size: 28px;
   margin-bottom: 50px;
   letter-spacing: 3px;
-  text-align: left;
-}
-
-.header-search-title--sub {
-  font-size: 14px;
 }
 
 @media (min-width: 768px) {
@@ -77,10 +59,6 @@ body {
     background-size: cover;
     background-position: center;
     height: 600px;
-  }
-
-  .header-search-title {
-    text-align: center;
   }
 }
 </style>

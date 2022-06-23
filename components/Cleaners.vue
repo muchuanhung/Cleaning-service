@@ -1,6 +1,6 @@
 <template>
   <body>
-    <div class="platform-landing__wrapper">
+    <div class="platform-landing__wrapper d-flex- align-items-center w-100">
       <div
         class="
           recommend-cleaner
@@ -19,10 +19,11 @@
             justify-content-center
             align-items-center
             flex-column
+            w-100
           "
         >
           <!-- Feature-slogn section -->
-          <div class="feature__title-wrapper">
+          <div class="feature__title-wrapper text-center">
             <div class="feature__title">全台唯一</div>
             <div class="feature__sub-title">挑人員，評價直接看！</div>
           </div>
@@ -85,6 +86,7 @@
             align-items-center
             flex-md-row
             mx-auto
+            w-100
           "
         >
           <!-- Cleaner-Worker01-->
@@ -98,7 +100,14 @@
               <div class="cleaner-body text-center mt-3">
                 <div class="cleaner-address">台北市</div>
                 <div class="cleaner-name">潔客＊</div>
-                <div class="cleaner-feedback d-flex justify-content-center">
+                <div
+                  class="
+                    cleaner-feedback
+                    d-flex
+                    justify-content-center
+                    align-items-center
+                  "
+                >
                   <div class="rate-stars__text pe-1">4.9</div>
                   <div class="rate-stars__star"></div>
                 </div>
@@ -115,7 +124,14 @@
               <div class="cleaner-body text-center mt-3">
                 <div class="cleaner-address">台北市</div>
                 <div class="cleaner-name">潔客＊</div>
-                <div class="cleaner-feedback d-flex justify-content-center">
+                <div
+                  class="
+                    cleaner-feedback
+                    d-flex
+                    justify-content-center
+                    align-items-center
+                  "
+                >
                   <div class="rate-stars__text pe-1">4.9</div>
                   <div class="rate-stars__star"></div>
                 </div>
@@ -135,7 +151,14 @@
               <div class="cleaner-body text-center mt-3">
                 <div class="cleaner-address">台北市</div>
                 <div class="cleaner-name">刻刻＊</div>
-                <div class="cleaner-feedback d-flex justify-content-center">
+                <div
+                  class="
+                    cleaner-feedback
+                    d-flex
+                    justify-content-center
+                    align-items-center
+                  "
+                >
                   <div class="rate-stars__text pe-1">4.8</div>
                   <div class="rate-stars__star"></div>
                 </div>
@@ -152,7 +175,14 @@
               <div class="cleaner-body text-center mt-3">
                 <div class="cleaner-address">台北市</div>
                 <div class="cleaner-name">刻刻＊</div>
-                <div class="cleaner-feedback d-flex justify-content-center">
+                <div
+                  class="
+                    cleaner-feedback
+                    d-flex
+                    justify-content-center
+                    align-items-center
+                  "
+                >
                   <div class="rate-stars__text pe-1">4.8</div>
                   <div class="rate-stars__star"></div>
                 </div>
@@ -172,7 +202,14 @@
               <div class="cleaner-body text-center mt-3">
                 <div class="cleaner-address">台北市</div>
                 <div class="cleaner-name">啊潔＊</div>
-                <div class="cleaner-feedback d-flex justify-content-center">
+                <div
+                  class="
+                    cleaner-feedback
+                    d-flex
+                    justify-content-center
+                    align-items-center
+                  "
+                >
                   <div class="rate-stars__text pe-1">4.7</div>
                   <div class="rate-stars__star"></div>
                 </div>
@@ -189,7 +226,14 @@
               <div class="cleaner-body text-center mt-3">
                 <div class="cleaner-address">台北市</div>
                 <div class="cleaner-name">啊潔＊</div>
-                <div class="cleaner-feedback d-flex justify-content-center">
+                <div
+                  class="
+                    cleaner-feedback
+                    d-flex
+                    justify-content-center
+                    align-items-center
+                  "
+                >
                   <div class="rate-stars__text pe-1">4.7</div>
                   <div class="rate-stars__star"></div>
                 </div>
@@ -209,7 +253,14 @@
               <div class="cleaner-body text-center mt-3">
                 <div class="cleaner-address">台北市</div>
                 <div class="cleaner-name">張碧＊</div>
-                <div class="cleaner-feedback d-flex justify-content-center">
+                <div
+                  class="
+                    cleaner-feedback
+                    d-flex
+                    justify-content-center
+                    align-items-center
+                  "
+                >
                   <div class="rate-stars__text pe-1">4.7</div>
                   <div class="rate-stars__star"></div>
                 </div>
@@ -226,7 +277,14 @@
               <div class="cleaner-body text-center mt-3">
                 <div class="cleaner-address">台北市</div>
                 <div class="cleaner-name">張碧＊</div>
-                <div class="cleaner-feedback d-flex justify-content-center">
+                <div
+                  class="
+                    cleaner-feedback
+                    d-flex
+                    justify-content-center
+                    align-items-center
+                  "
+                >
                   <div class="rate-stars__text pe-1">4.7</div>
                   <div class="rate-stars__star"></div>
                 </div>
@@ -344,22 +402,16 @@ body {
 }
 
 .platform-landing__wrapper {
-  display: flex;
-  align-items: center;
-
-  width: 100%;
   background-color: #f5f3f4;
   padding: 40px 0 30px 0;
 }
 
 .recommend-cleaner__feature {
-  width: 100%;
   overflow-x: scroll;
 }
 
 .feature__title-wrapper {
   padding: 0 36px;
-  text-align: center;
   font-weight: 500;
   margin-bottom: 16px;
 }
@@ -414,7 +466,6 @@ body {
 
   .feature__title-wrapper {
     padding: 0 36px 16px;
-    text-align: center;
     border-bottom: 2px solid #3e4459;
     margin-bottom: 24px;
   }

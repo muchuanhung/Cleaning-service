@@ -1,7 +1,14 @@
 <!-- Please remove this file from your project -->
 <template>
   <body>
-    <div class="landing-service__card-wrapper d-flex flex-wrap">
+    <div
+      class="
+        landing-service__card-wrapper
+        d-flex
+        justify-content-center
+        flex-wrap
+      "
+    >
       <!-- Card01 -->
       <div
         class="landing-service__card service-card__banner card mx-3 my-3"
@@ -852,9 +859,7 @@ export default {
 <style scoped>
 .landing-service__card-wrapper {
   padding: 50px 0;
-  display: flex;
   align-items: stretch;
-  justify-content: center;
   max-width: 1400px;
   margin: 0 auto;
 }
@@ -870,10 +875,6 @@ export default {
   justify-content: space-between;
 }
 
-.svg-inline--fa.fa-w-16 {
-  width: 0.5rem;
-}
-
 .addition__list {
   width: 50%;
   font-size: 14px;
@@ -887,10 +888,7 @@ export default {
 }
 
 .service-card__measures {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-item-align: start;
   align-self: flex-start;
   margin-top: 20px;
   width: 100%;
@@ -910,8 +908,6 @@ export default {
 .measures__frames {
   display: flex;
   justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   position: relative;
   border-bottom: 3px solid #eee;
@@ -924,8 +920,6 @@ export default {
   content: "";
   width: 3px;
   height: 20px;
-  -webkit-transform: translateY(1px);
-  -ms-transform: translateY(1px);
   transform: translateY(1px);
   left: 0;
   background-color: #eee;

@@ -1,7 +1,14 @@
 <!-- Please remove this file from your project -->
 <template>
   <body>
-    <div class="landing-service__card-wrapper d-flex flex-wrap">
+    <div
+      class="
+        landing-service__card-wrapper
+        d-flex
+        justify-content-center
+        flex-wrap
+      "
+    >
       <!-- Card01 -->
       <div
         class="landing-service__card service-card__banner card mx-3 my-3"
@@ -16,7 +23,16 @@
           alt="..."
         />
         <div class="card-body">
-          <div class="service-card__title">客廳清潔</div>
+          <div
+            class="
+              service-card__title
+              d-flex
+              align-items-center
+              justify-content-between
+            "
+          >
+            客廳清潔
+          </div>
           <!-- Clean-Service -->
           <div class="card-listgroup d-flex flex-wrap mt-3">
             <div class="addition__list">
@@ -134,7 +150,16 @@
           alt="..."
         />
         <div class="card-body">
-          <div class="service-card__title">廚房清潔</div>
+          <div
+            class="
+              service-card__title
+              d-flex
+              align-items-center
+              justify-content-between
+            "
+          >
+            廚房清潔
+          </div>
           <!-- Clean-Service -->
           <div class="card-listgroup d-flex flex-wrap mt-3">
             <div class="addition__list">
@@ -246,7 +271,16 @@
           alt="..."
         />
         <div class="card-body">
-          <div class="service-card__title">陽台清潔</div>
+          <div
+            class="
+              service-card__title
+              d-flex
+              align-items-center
+              justify-content-between
+            "
+          >
+            陽台清潔
+          </div>
           <!-- Clean-Service -->
           <div class="card-listgroup d-flex flex-wrap mt-3">
             <div class="addition__list">
@@ -337,7 +371,16 @@
         />
 
         <div class="card-body">
-          <div class="service-card__title">浴室清潔</div>
+          <div
+            class="
+              service-card__title
+              d-flex
+              align-items-center
+              justify-content-between
+            "
+          >
+            浴室清潔
+          </div>
           <!-- Clean-Service -->
           <div class="card-listgroup d-flex flex-wrap mt-3">
             <div class="addition__list">
@@ -450,7 +493,16 @@
           alt="..."
         />
         <div class="card-body">
-          <div class="service-card__title">臥室清潔</div>
+          <div
+            class="
+              service-card__title
+              d-flex
+              align-items-center
+              justify-content-between
+            "
+          >
+            臥室清潔
+          </div>
           <!-- Clean-Service -->
           <div class="card-listgroup d-flex flex-wrap mt-3">
             <div class="addition__list">
@@ -565,7 +617,16 @@
           alt="..."
         />
         <div class="card-body">
-          <div class="service-card__title">其他清潔</div>
+          <div
+            class="
+              service-card__title
+              d-flex
+              align-items-center
+              justify-content-between
+            "
+          >
+            其他清潔
+          </div>
           <div class="addition__list-description mt-1">
             非主要清潔內容，但可增加時數請清潔人員執行
           </div>
@@ -688,9 +749,7 @@ export default {
 <style scoped>
 .landing-service__card-wrapper {
   padding: 50px 0;
-  display: flex;
   align-items: stretch;
-  justify-content: center;
   max-width: 1400px;
   margin: 0 auto;
 }
@@ -701,9 +760,6 @@ export default {
 
 .service-card__title {
   font-size: 18px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .svg-inline--fa.fa-w-16 {

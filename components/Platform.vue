@@ -92,12 +92,7 @@ body {
 .platform-landing__body {
   padding-bottom: 40px;
 }
-.platform-landing__wrappper {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
-}
+
 .platform-landing__title {
   font-size: 18px;
   color: #3e4459;
