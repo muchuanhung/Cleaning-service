@@ -38,7 +38,7 @@ body {
 }
 
 .banner {
-  background-image: url("../assets/images/banner.png");
+  background-image: url("../assets/images/landing-mobilebg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -52,7 +52,6 @@ body {
 
 .header-search-container {
   max-width: 585px;
-  width: 50%;
   padding: 20px;
   margin: 5px auto 0;
   text-align: center;
@@ -64,9 +63,24 @@ body {
   font-size: 28px;
   margin-bottom: 50px;
   letter-spacing: 3px;
+  text-align: left;
 }
 
 .header-search-title--sub {
   font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  .banner {
+    background-image: url("../assets/images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+  }
+
+  .header-search-title {
+    text-align: center;
+  }
 }
 </style>

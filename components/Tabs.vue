@@ -81,7 +81,6 @@
                   <span class="icon-dot me-2">
                     <fa :icon="['fas', 'clock']" />
                   </span>
-
                   單人打掃3小時
                 </div>
 
@@ -187,8 +186,8 @@ export default {
   border-right: none;
   text-decoration: none;
   font-weight: 400;
-  font-size: 16px;
-  padding: 6px 12px;
+  font-size: 12px;
+  padding: 6px;
   border-radius: 4px 4px 0 0;
   color: #9b9b9b;
   background-color: #eee;
@@ -275,5 +274,11 @@ export default {
   border: 1px solid #eee;
   margin: 3px 0;
   cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .tabs a {
+    font-size: 16px;
+  }
 }
 </style>

@@ -1,50 +1,139 @@
 <template>
   <div class="header container">
-    <header class="d-flex flex-wrap justify-content-center">
-      <a
-        href="/"
-        class="d-flex align-items-center mb-3 mb-md-0 me-md-auto nav-logo"
-      >
-        <img src="../assets/images/logo.png" alt="logo" class="nav-logo img" />
-      </a>
+    <!-- Web -->
+    <header class="d-none d-md-block">
+      <div class="d-flex flex-wrap justify-content-center">
+        <a
+          href="/"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto nav-logo"
+        >
+          <img
+            src="../assets/images/logo.png"
+            alt="logo"
+            class="nav-logo img"
+          />
+        </a>
 
-      <ul class="nav nav-pills d-flex align-items-center">
-        <li class="nav-item">
-          <a href="#" class="nav-home" aria-current="page">
-            <span>
-              <fa :icon="['fas', 'house-chimney']" />
-            </span>
-            找打掃
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">
-            <span>
-              <fa :icon="['fas', 'briefcase']" />
-            </span>
-            辦公室清潔
-          </a>
-        </li>
-        <div class="dropdown">
-          <button
-            class="nav-link dropdown-toggle"
-            type="button"
-            id="dropdownMenuButton1"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            全部服務
-          </button>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-            <li><a class="dropdown-item" href="#">清潔整理</a></li>
-            <li><a class="dropdown-item" href="#">家電清洗</a></li>
-            <li><a class="dropdown-item" href="#">其他服務</a></li>
-          </ul>
+        <ul class="nav nav-pills d-flex align-items-center">
+          <li class="nav-item">
+            <a href="#" class="nav-home" aria-current="page">
+              <span>
+                <fa :icon="['fas', 'house-chimney']" />
+              </span>
+              找打掃
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <span>
+                <fa :icon="['fas', 'briefcase']" />
+              </span>
+              辦公室清潔
+            </a>
+          </li>
+          <div class="dropdown">
+            <button
+              class="nav-link dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton1"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              全部服務
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">清潔整理</a></li>
+              <li><a class="dropdown-item" href="#">家電清洗</a></li>
+              <li><a class="dropdown-item" href="#">其他服務</a></li>
+            </ul>
+          </div>
+          <li class="nav-item"><a href="#" class="nav-member">成為潔客</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">生活知識站</a></li>
+          <li class="nav-item">
+            <a href="#" class="nav-register">註冊登入</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- Mobile -->
+    <header class="d-block d-md-none">
+      <div class="d-flex flex-wrap justify-content-between align-items-center">
+        <a href="/" class="d-flex align-items-center nav-logo">
+          <img
+            src="../assets/images/logo.png"
+            alt="logo"
+            class="nav-logo img"
+          />
+        </a>
+        <button
+          type="button"
+          class="border-0"
+          style="background: transparent"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasRight"
+          aria-controls="offcanvasRight"
+        >
+          <img
+            src="../assets/images/mobile_hamburger.png"
+            width="28"
+            height="28"
+            alt="漢堡排"
+          />
+        </button>
+
+        <div
+          class="offcanvas offcanvas-end w-50"
+          tabindex="-1"
+          id="offcanvasRight"
+          aria-labelledby="offcanvasRightLabel"
+        >
+          <div class="offcanvas-body mt-3">
+            <ul class="nav nav-pills d-flex align-items-center">
+              <li class="nav-item">
+                <a href="#" class="nav-home" aria-current="page">
+                  <span>
+                    <fa :icon="['fas', 'house-chimney']" />
+                  </span>
+                  找打掃
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <span>
+                    <fa :icon="['fas', 'briefcase']" />
+                  </span>
+                  辦公室清潔
+                </a>
+              </li>
+              <div class="dropdown">
+                <button
+                  class="nav-link dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  全部服務
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">清潔整理</a></li>
+                  <li><a class="dropdown-item" href="#">家電清洗</a></li>
+                  <li><a class="dropdown-item" href="#">其他服務</a></li>
+                </ul>
+              </div>
+              <li class="nav-item">
+                <a href="#" class="nav-member">成為潔客</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">生活知識站</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-register">註冊登入</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <li class="nav-item"><a href="#" class="nav-member">成為潔客</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">生活知識站</a></li>
-        <li class="nav-item"><a href="#" class="nav-register">註冊登入</a></li>
-      </ul>
+      </div>
     </header>
   </div>
 </template>
@@ -55,7 +144,6 @@ export default {
 </script>
 
 <style scoped>
-/* global color setting */
 a {
   text-decoration: none;
 }
@@ -70,7 +158,6 @@ a {
 
 .nav-logo img {
   max-width: 260px;
-  margin-left: 10px;
   max-height: 45px;
   height: 100%;
   width: auto;
