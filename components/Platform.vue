@@ -55,7 +55,20 @@
       <!-- Heros Section -->
       <Heros />
       <!-- Cleaners Section -->
-      <!-- <Cleaners /> -->
+      <Cleaners />
+      <!-- Reserve-button -->
+      <div class="d-block d-md-none">
+        <div
+          class="landing-service__action d-flex justify-content-center w-100"
+        >
+          <button class="landing-service__action reserve-btn d-inline-block">
+            開始預約
+            <span>
+              <fa :icon="['fas', 'angle-right']" />
+            </span>
+          </button>
+        </div>
+      </div>
     </div>
   </body>
 </template>
