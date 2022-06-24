@@ -779,10 +779,7 @@ export default {
 }
 
 .service-card__measures {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-item-align: start;
   align-self: flex-start;
   margin-top: 20px;
   width: 100%;
@@ -802,8 +799,6 @@ export default {
 .measures__frames {
   display: flex;
   justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   position: relative;
   border-bottom: 3px solid #eee;
@@ -816,8 +811,6 @@ export default {
   content: "";
   width: 3px;
   height: 20px;
-  -webkit-transform: translateY(1px);
-  -ms-transform: translateY(1px);
   transform: translateY(1px);
   left: 0;
   background-color: #eee;
