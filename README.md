@@ -3,7 +3,7 @@
 
 #### 透過限時切版加強自己的切版能力與用vue.nuxt開發
 
-#### ☞ ☞ Take a look at this [Cleaning-Service](https://muchuanhung.github.io/Cleaning-/). 👀
+#### ☞ ☞ Take a look at this [Cleaning-Service](https://muchuanhung.github.io/Cleaning-service/). 👀
 
 ## 🏃‍ Project setup and run
 
