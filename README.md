@@ -27,7 +27,7 @@ git clone  https://github.com/muchuanhung/Cleaning-service.git
 ### Compiles and hot-reloads for development
 
 ```
-npm run serve
+npm run dev
 ```
 
 - Open the browser and navigate to http://localhost:61189
