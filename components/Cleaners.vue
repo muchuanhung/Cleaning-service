@@ -44,7 +44,7 @@
                   height="110"
                   class="res-img"
                   style="opacity: 1; transition: opacity 0.5s ease 0s"
-                  src="../assets/images/part2_advantage1 copy.png"
+                  src="https://i.imgur.com/qCiXu6T.png"
                 />
                 <div class="feature__info-text">
                   人員具良民證、<br />清潔證照
@@ -56,7 +56,7 @@
                   height="110"
                   class="res-img"
                   style="opacity: 1; transition: opacity 0.5s ease 0s"
-                  src="../assets/images/part2_advantage2 copy.png"
+                  src="https://i.imgur.com/7daBHyi.png"
                 />
                 <div class="feature__info-text">
                   今天訂明天掃，<br />即時預約超方便
@@ -68,7 +68,7 @@
                   height="110"
                   class="res-img"
                   style="opacity: 1; transition: opacity 0.5s ease 0s"
-                  src="../assets/images/part2_advantage3 copy.png"
+                  src="https://i.imgur.com/zEilYbg.png"
                 />
                 <div class="feature__info-text">
                   價錢、履歷、評價 <br />透明公開
@@ -93,7 +93,7 @@
           <div class="feature__cleaners-wrapper">
             <div class="cleaner-card card">
               <img
-                src="../assets/images/cleaners/Oval-1.png"
+                src="https://i.imgur.com/3wMSloI.png"
                 class="cleaner-img"
                 alt="cleaner"
               />
@@ -117,7 +117,7 @@
 
             <div class="cleaner-card card">
               <img
-                src="../assets/images/cleaners/Oval-1.png"
+                src="https://i.imgur.com/3wMSloI.png"
                 class="cleaner-img"
                 alt="cleaner"
               />
@@ -144,7 +144,7 @@
           <div class="feature__cleaners-wrapper">
             <div class="cleaner-card card">
               <img
-                src="../assets/images/cleaners/Oval-2.png"
+                src="https://i.imgur.com/mSpHdhJ.png"
                 class="cleaner-img"
                 alt="cleaner"
               />
@@ -168,7 +168,7 @@
 
             <div class="cleaner-card card">
               <img
-                src="../assets/images/cleaners/Oval-2.png"
+                src="https://i.imgur.com/mSpHdhJ.png"
                 class="cleaner-img"
                 alt="cleaner"
               />
@@ -195,7 +195,7 @@
           <div class="feature__cleaners-wrapper">
             <div class="cleaner-card card">
               <img
-                src="../assets/images/cleaners/Oval-3.png"
+                src="https://i.imgur.com/HUNb0wu.png"
                 class="cleaner-img"
                 alt="cleaner"
               />
@@ -219,7 +219,7 @@
 
             <div class="cleaner-card card">
               <img
-                src="../assets/images/cleaners/Oval-3.png"
+                src="https://i.imgur.com/HUNb0wu.png"
                 class="cleaner-img"
                 alt="cleaner"
               />
@@ -246,7 +246,7 @@
           <div class="feature__cleaners-wrapper">
             <div class="cleaner-card card">
               <img
-                src="../assets/images/cleaners/Oval-4.png"
+                src="https://i.imgur.com/YzZByks.png"
                 class="cleaner-img"
                 alt="cleaner"
               />
@@ -270,7 +270,7 @@
 
             <div class="cleaner-card card">
               <img
-                src="../assets/images/cleaners/Oval-4.png"
+                src="https://i.imgur.com/YzZByks.png"
                 class="cleaner-img"
                 alt="cleaner"
               />
@@ -324,7 +324,7 @@
                     width: 30px;
                     height: 30px;
                   "
-                  src="../assets/images/part2_advantage-mob1.png"
+                  src="https://i.imgur.com/qCiXu6T.png"
                 />
                 人員具良民證、清潔證照
               </div>
@@ -347,7 +347,7 @@
                     width: 30px;
                     height: 30px;
                   "
-                  src="../assets/images/part2_advantage-mob2.png"
+                  src="https://i.imgur.com/7daBHyi.png"
                 />
                 今天訂明天掃，即時預約超方便
               </div>
@@ -370,7 +370,7 @@
                     width: 30px;
                     height: 30px;
                   "
-                  src="../assets/images/part2_advantage-mob1.png"
+                  src="https://i.imgur.com/qCiXu6T.png"
                 />
                 價錢、履歷、評價透明公開
               </div>

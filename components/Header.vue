@@ -8,7 +8,7 @@
           class="d-flex align-items-center mb-3 mb-md-0 me-md-auto nav-logo"
         >
           <img
-            src="../assets/images/logo.png"
+            src="https://i.imgur.com/sTG67Vj.png"
             alt="logo"
             class="nav-logo img"
           />
@@ -60,7 +60,7 @@
       <div class="d-flex flex-wrap justify-content-between align-items-center">
         <a href="/" class="d-flex align-items-center nav-logo">
           <img
-            src="../assets/images/logo.png"
+            src="https://i.imgur.com/sTG67Vj.png"
             alt="logo"
             class="nav-logo img"
           />
@@ -74,7 +74,7 @@
           aria-controls="offcanvasRight"
         >
           <img
-            src="../assets/images/mobile_hamburger.png"
+            src="https://i.imgur.com/aHn0wGV.png"
             width="28"
             height="28"
             alt="漢堡排"
