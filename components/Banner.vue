@@ -27,7 +27,7 @@ export default {
 
 <style scoped>
 .banner {
-  background-image: url("../assets/images/landing-mobilebg.jpg");
+  background-image: url("https://i.imgur.com/SXh2bmj.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -54,7 +54,7 @@ export default {
 
 @media (min-width: 768px) {
   .banner {
-    background-image: url("../assets/images/banner.png");
+    background-image: url("https://i.imgur.com/oGr4dPm.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

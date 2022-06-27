@@ -15,7 +15,7 @@
         style="width: 343px"
       >
         <img
-          src="../assets/images/product-livingroom.png"
+          src="https://i.imgur.com/itcJtwj.jpg"
           class="card-img-top"
           width="343px"
           height="122"
@@ -127,7 +127,7 @@
                         data-v-2c27a99f=""
                         width="28"
                         height="28"
-                        src="../assets/images/clock.png"
+                        src="https://i.imgur.com/yb0ol76.png"
                       />
                       <div class="measures__badge-text">0.5~1.5</div>
                     </div>
@@ -157,7 +157,7 @@
         style="width: 343px"
       >
         <img
-          src="../assets/images/product-kitchen.png"
+          src="https://i.imgur.com/NS3kla6.png"
           class="card-img-top"
           width="343px"
           height="122"
@@ -247,7 +247,7 @@
                         data-v-2c27a99f=""
                         width="28"
                         height="28"
-                        src="../assets/images/clock.png"
+                        src="https://i.imgur.com/yb0ol76.png"
                       />
                       <div class="measures__badge-text">1.0~2.5</div>
                     </div>
@@ -297,7 +297,7 @@
         style="width: 343px"
       >
         <img
-          src="../assets/images/product-balcony.png"
+          src="https://i.imgur.com/M78Hnyd.png"
           class="card-img-top"
           width="343px"
           height="122"
@@ -381,7 +381,7 @@
                         data-v-2c27a99f=""
                         width="28"
                         height="28"
-                        src="../assets/images/clock.png"
+                        src="https://i.imgur.com/yb0ol76.png"
                       />
                       <div class="measures__badge-text">1.0~1.5</div>
                     </div>
@@ -411,7 +411,7 @@
         style="width: 343px"
       >
         <img
-          src="../assets/images/product-bathroom.png"
+          src="https://i.imgur.com/F5FKdad.png"
           class="card-img-top"
           width="343px"
           height="122"
@@ -506,7 +506,7 @@
                         data-v-2c27a99f=""
                         width="28"
                         height="28"
-                        src="../assets/images/clock.png"
+                        src="https://i.imgur.com/yb0ol76.png"
                       />
                       <div class="measures__badge-text">1.0~1.5/間</div>
                     </div>
@@ -554,7 +554,7 @@
         style="width: 343px"
       >
         <img
-          src="../assets/images/product-room.png"
+          src="https://i.imgur.com/ILOZo4o.png"
           class="card-img-top"
           width="343px"
           height="122"
@@ -662,7 +662,7 @@
                         data-v-2c27a99f=""
                         width="28"
                         height="28"
-                        src="../assets/images/clock.png"
+                        src="https://i.imgur.com/yb0ol76.png"
                       />
                       <div class="measures__badge-text">0.5~1/間</div>
                     </div>
@@ -692,7 +692,7 @@
         style="width: 343px"
       >
         <img
-          src="../assets/images/product-loundry.png"
+          src="https://i.imgur.com/V5DxhAX.png"
           class="card-img-top"
           width="343px"
           height="122"
