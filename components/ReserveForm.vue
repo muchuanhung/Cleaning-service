@@ -1,7 +1,7 @@
 <!-- Please remove this file from your project -->
 <template>
-  <div id="tabs" class="container">
-    <div class="tabs">
+  <div id="reserve-form" class="container">
+    <div class="reserve-formwrapper">
       <a
         v-on:click="activetab = '1'"
         v-bind:class="[activetab === '1' ? 'active' : '']"
@@ -141,7 +141,7 @@
 
 <script>
 export default {
-  name: "Tabs",
+  name: "ReserveForm",
   data: function () {
     return {
       activetab: "1",
@@ -151,13 +151,6 @@ export default {
 </script>
 
 <style scoped>
-/* RESET */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 .color-primary {
   color: #36bbd9;
 }
@@ -172,14 +165,14 @@ export default {
 }
 
 /* Style the tabs */
-.tabs {
+.reserve-formwrapper {
   overflow: hidden;
   margin-bottom: -2px; /* hide bottom border */
   margin-left: 24px;
   display: flex;
 }
 
-.tabs a {
+.reserve-formwrapper a {
   float: left;
   cursor: pointer;
   transition: background-color 0.2s;
@@ -196,13 +189,13 @@ export default {
 }
 
 /* Change background color of tabs on hover */
-.tabs a:hover {
+.reserve-formwrapper a:hover {
   background-color: #aaa;
   color: #fff;
 }
 
 /* Styling for active tab */
-.tabs a.active {
+.reserve-formwrapper a.active {
   background-color: rgba(255, 255, 255, 0.3);
   color: #36bbd9;
   cursor: default;

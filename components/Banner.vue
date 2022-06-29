@@ -1,27 +1,25 @@
 <!-- Please remove this file from your project -->
 <template>
-  <body>
-    <div class="banner">
-      <div class="header-inner mx-auto">
-        <div class="header-search-container mx-auto text-center">
-          <div class="header-search-title text-start text-md-center">
-            <nav class="d-none d-md-block">預約居家清潔，三分鐘馬上搞定！</nav>
-            <nav class="d-block d-md-none">
-              預約居家清潔，<br />三分鐘馬上搞定！
-            </nav>
-          </div>
-          <Tabs />
+  <div class="banner">
+    <div class="header-inner mx-auto">
+      <div class="header-search-container mx-auto text-center">
+        <div class="header-search-title text-start text-md-center">
+          <h1 class="d-none d-md-block">預約居家清潔，三分鐘馬上搞定！</h1>
+          <h1 class="d-block d-md-none">
+            預約居家清潔，<br />三分鐘馬上搞定！
+          </h1>
         </div>
+        <ReserveForm />
       </div>
     </div>
-  </body>
+  </div>
 </template>
 
 <script>
-import Tabs from "./Tabs.vue";
+import ReserveForm from "./ReserveForm.vue";
 export default {
   name: "Banner",
-  components: { Tabs },
+  components: { ReserveForm },
 };
 </script>
 

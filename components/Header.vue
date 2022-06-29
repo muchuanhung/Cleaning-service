@@ -17,17 +17,13 @@
         <ul class="nav nav-pills d-flex align-items-center">
           <li class="nav-item">
             <a href="#" class="nav-home" aria-current="page">
-              <span>
-                <fa :icon="['fas', 'house-chimney']" />
-              </span>
+              <fa :icon="['fas', 'house-chimney']" />
               找打掃
             </a>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">
-              <span>
-                <fa :icon="['fas', 'briefcase']" />
-              </span>
+              <fa :icon="['fas', 'briefcase']" />
               辦公室清潔
             </a>
           </li>
@@ -91,17 +87,13 @@
             <ul class="nav nav-pills d-flex align-items-center">
               <li class="nav-item">
                 <a href="#" class="nav-home" aria-current="page">
-                  <span>
-                    <fa :icon="['fas', 'house-chimney']" />
-                  </span>
+                  <fa :icon="['fas', 'house-chimney']" />
                   找打掃
                 </a>
               </li>
               <li class="nav-item">
                 <a href="#" class="nav-link">
-                  <span>
-                    <fa :icon="['fas', 'briefcase']" />
-                  </span>
+                  <fa :icon="['fas', 'briefcase']" />
                   辦公室清潔
                 </a>
               </li>
